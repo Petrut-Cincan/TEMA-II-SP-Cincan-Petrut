@@ -1,5 +1,5 @@
 P = 40; 
-D = 11; 
+D = 6; 
 N = 50;
 w0 = 2*pi/P; %pulsatia
 t_original = 0:0.02:D; %esantionare original
@@ -34,5 +34,5 @@ figure(2);
 w=-50*w0:w0:50*w0;
 stem(w/(2*pi),abs(X)),title('Spectrul lui x(t)');
 
-%Seriile Fourier sunt o unealt? matematic? folosit? pentru a analiza func?iile periodice descompun‚ndu-le Óntr-o sum? ponderat?
+%Seriile Fourier sunt o unealt? matematic? folosit? pentru a analiza func?iile periodice descompun√¢ndu-le √Æntr-o sum? ponderat?
 %de func?ii sinusoidale componente care sunt denumite armonice.
